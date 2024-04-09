@@ -1,5 +1,5 @@
 # eMail Checker - crawl your .eml
-Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebenen Liste in `./searchTerms.ini`
+Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebenen Liste in `./searchTerms.txt`
 
 - Alle nicht zugeordneten Elemente aus searchTerm.ini werden zurückgegeben,
 - Alle nicht zugeordneteten Elemente aus .eml werden zurückgegeben.
@@ -13,3 +13,12 @@ Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebene
 2. Suchbegriffe in `searchTerm.txt` schreiben. Je Zeile ein Suchbegriff (z.B. Excel Tabelle kopieren)
 3. `run.py` mit Python (z.B. IDLE) ausführen.
 4. Start mit ENTER
+
+## Dependencies
+- Python 3.12.2
+
+.venv:
+'''
+python3 -m venv .venv
+source .venv/bin/activate
+'''
