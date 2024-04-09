@@ -58,7 +58,7 @@ def run_script():
     if confirmation == "":
         if __name__ == "__main__":
             # Übergabe: Pfad zur INI-Datei mit den Suchbegriffen
-            search_terms = read_search_terms("./searchTerms.ini")
+            search_terms = read_search_terms("./searchTerms.txt")
             emails = search_in_folder(search_terms)
 
             # Ausgabe der .eml-Dateinamen, für die kein Element aus dem Array vorlag

@@ -10,6 +10,6 @@ Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebene
 
 ## Anwendung
 1. eMails in den Ordner `import`ablegen.
-2. Suchbegriffe in `searchTerm.ini` schreiben. Je Zeile ein Suchbegriff (z.B. Excel Tabelle kopieren)
+2. Suchbegriffe in `searchTerm.txt` schreiben. Je Zeile ein Suchbegriff (z.B. Excel Tabelle kopieren)
 3. `run.py` mit Python (z.B. IDLE) ausführen.
 4. Start mit ENTER
