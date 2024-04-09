@@ -18,7 +18,7 @@ Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebene
 - Python 3.12.2
 
 .venv:
-'''
+```
 python3 -m venv .venv
 source .venv/bin/activate
-'''
+```
