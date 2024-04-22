@@ -2,7 +2,7 @@
 Das Skript prüft die Inhalte der .eml Dateien unter `./import` mit der gegebenen Liste in `./searchTerms.txt`
 
 - Alle nicht zugeordneten Elemente aus searchTerm.ini werden zurückgegeben,
-- Alle nicht zugeordneteten Elemente aus .eml werden zurückgegeben.
+- Alle nicht zugeordneten Elemente aus .eml werden zurückgegeben.
 - Wurde alles erfolgreich gefunden, wird eine Erfolgsmeldung zurückgegeben.
 
 ## Hinweise
